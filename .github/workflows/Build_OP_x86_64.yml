@@ -5,17 +5,17 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-###SevenPlusJun
 
-name: Build_x86_64_SevenPlusJun
+
+name: Build_x86_64
 
 on: 
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - master
+  push:
+    branches: 
+      - master
 
   #schedule:
   #  - cron: 0 8 * * 5
